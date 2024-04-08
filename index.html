@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TO DO LIST</title>
+  </head>
+  <body>
+    <main>
+      <h1>TO DO LIST</h1>
+      <section>
+        <div class="task-category">
+          <h2>Main task</h2>
+          <div class="card">
+            <div class="subcard">
+              <ul>
+                <li>
+                  <input type="checkbox" />
+                  <p>Sholat Subuh</p>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <p>Sarapan</p>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <p>Olahraga</p>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <p>Mandi Pagi</p>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <p>Kerja</p>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <p>Sholat Dzuhur</p>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <p>Makan Siang</p>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <p>Sholat Ashar</p>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <p>Mandi Sore</p>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <p>Sholat Magrib</p>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <p>Baca Al Quran</p>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <p>Makan Malam</p>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <p>Sholat Isya</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="task-category">
+          <h2>Second task</h2>
+          <div class="card">
+            <div class="subcard">
+              <div class="input">
+                <input type="text" class="input-field" id="taskInput" placeholder="Add a new task" />
+                <button class="btn">Add</button>
+              </div>
+              <ul>
+                <p id="taskList"></p>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
